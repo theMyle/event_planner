@@ -58,7 +58,20 @@ function EventPlanner() {
                 </ul>
             </section>
 
-            <section className='testimonials'></section>
+            <section className='testimonials'>
+                <h2>Testimonials</h2>
+
+                <div className='testimonial'>
+                    <p>"Event Planner made organizing my wedding a breeze. Highly recommended!"</p>
+                    <p className='author'>- Emily Johnson</p>
+                </div>
+
+                <div className='testimonial'>
+                    <p>"I use Event Planner to all my corporate events. It saves me so much time and effort!"</p>
+                    <p className='author'>- John Smith</p>
+                </div>
+            </section>
+
             <section className='contact'></section>
         </div>
     );
